@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300;800&display=swap');
+
+
+:root {
+	--cor-background-principal: #000;
+	--cor-background-secundaria: #444;
+	--cor-fonte-clara: #fff;
+	--cor-fonte-escura: #000;
+	--estilo-fonte-principal: 'Montserrat', sans-serif;
+}
+
+* {
+	font-family: var(--estilo-fonte-principal);
+    font-size: 18px;
+}
+
+#caixaLinkRepositorio  {
+	padding-top:25px;
+ }
+
+ #caixaLinkRepositorio .fotoPerfil {
+	width: 120px;
+	height: 120px;
+	border-radius: 120px;
+	margin: 30px auto auto;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom:25px;
+ }
+
+
+#caixaLinkRepositorio {
+	color: var(--cor-fonte-escura);
+	text-align: center;
+	margin: 20px auto 120px;
+	font-size: 22px;
+}
+
+#caixaLinkRepositorio h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#caixaLinkRepositorio .descricaoProjeto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #888;
+}
+
+#caixaLinkRepositorio .cards-repositorio  { 
+	margin: 30px 0px 20px;
+}
+
+#caixaLinkRepositorio .cards-repositorio-item {
+	margin-bottom: 30px;
+}
+
+#caixaLinkRepositorio .cards-repositorio a.bt-visualizar { 
+	padding:10px 20px;
+	border-radius: 50px;
+	color: var(--cor-fonte-clara);
+	background-color: var(--cor-background-principal);
+	text-decoration: none;
+	display: table;
+	margin: 30px auto 4px;
+	border: none;
+	font-size: 17px;	
+	
+	-webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1 linear;
+    -o-transition: background-color 0.1s linear;
+    -ms-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+
+#caixaLinkRepositorio .cards-repositorio a.bt-visualizar:hover { 
+	background-color: var(--cor-background-secundaria);
+}
+
+#caixaLinkRepositorio .cards-repositorio a.link-repositorio { 
+	text-decoration: none;
+	color: var(--cor-fonte-escura);
+	font-size: 14px;
+}
+
+#caixaLinkRepositorio .cards-repositorio a.link-repositorio:hover { 
+	font-weight: bold;
+}
+
+
+#caixaLinkRepositorio .cards-repositorio p { 
+	font-size: 16px;
+}
+
+
+#caixaLinkRepositorio a.bt-repositoriogit { 
+	border: solid 3px #000;
+	padding:10px 20px;
+	border-radius: 50px;
+	color: var(--cor-fonte-escura);
+	text-decoration: none;
+	display: table;
+	margin: auto;
+	margin-top: 30px;
+
+	-webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1 linear;
+    -o-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+#caixaLinkRepositorio a.bt-repositoriogit:hover { 
+	background-color: var(--cor-background-principal);
+	color: var(--cor-fonte-clara);
+}
+
+
+#caixaLinkDocumentacao {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
